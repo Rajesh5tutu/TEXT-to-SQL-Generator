@@ -45,7 +45,9 @@ Follow these steps to run the SQL Genie locally on your machine.
 >> pip install -r requirements.txt
 
 - Configure environment variables
+
 Create .env file.
+
 Add your Google API key in .env:
 >> GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 
