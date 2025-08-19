@@ -36,16 +36,18 @@ Follow these steps to run the SQL Genie locally on your machine.
 
 - Create and activate a virtual environment
 >> python -m venv .venv
+
 >> source .venv/bin/activate      # macOS/Linux
+
 >>.venv\Scripts\activate         # Windows
 
 - Install dependencies
 >> pip install -r requirements.txt
 
 - Configure environment variables
->> Copy .env.example to .env
->> Add your Google API key in .env:
-GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+Create .env file.
+Add your Google API key in .env:
+>> GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 
 - Initialize the SQLite database
 >> python sql.py
