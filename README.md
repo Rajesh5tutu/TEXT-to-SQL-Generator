@@ -31,7 +31,7 @@ Follow these steps to run the SQL Genie locally on your machine.
 ### Installation
 - Clone the repository
 >> https://github.com/Rajesh5tutu/TEXT-to-SQL-Generator.git
-cd text-to-sql-generator
+>>cd text-to-sql-generator
 
 - Create and activate a virtual environment
 >> python -m venv .venv
