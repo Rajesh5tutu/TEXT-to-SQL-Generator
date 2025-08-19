@@ -66,17 +66,17 @@ This will allow the app to:
 - Handle follow-up questions and conversational SQL refinement
 - Support multiple database schemas dynamically
 - Chain prompts and tools for richer query generation and validation
-- Multi-Database Support
-  
-Extend compatibility beyond SQLite to include PostgreSQL, MySQL, and cloud-hosted databases.
-- Custom Prompt Templates
-Allow users to define their own prompt structure for domain-specific SQL generation.
-- User Session Memory
-Persist user interactions to enable context-aware query suggestions and history tracking.
-- Role-Based Access & Query Logging
-Add user authentication and query logging for enterprise-grade usage and auditability.
-- Deployment as a SaaS Tool
-Package the app for cloud deployment with user onboarding, API access, and billing support.
+
+Multi-Database Support
+  - Extend compatibility beyond SQLite to include PostgreSQL, MySQL, and cloud-hosted databases.
+Custom Prompt Templates
+  - Allow users to define their own prompt structure for domain-specific SQL generation.
+User Session Memory
+  - Persist user interactions to enable context-aware query suggestions and history tracking.
+Role-Based Access & Query Logging
+  - Add user authentication and query logging for enterprise-grade usage and auditability.
+Deployment as a SaaS Tool
+  - Package the app for cloud deployment with user onboarding, API access, and billing support.
 
 
 
