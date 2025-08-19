@@ -57,7 +57,7 @@ Add your Google API key in .env:
 - Run the Streamlit app
 >> streamlit run app.py
 
-### Future Advancements
+## Future Advancements
 To further elevate the capabilities of SQL Genie, the following enhancements are planned:
 - LLM Integration via LangChain
 Incorporate LangChain to enable more advanced natural language understanding, multi-step reasoning, and contextual memory.
