@@ -30,21 +30,26 @@ Follow these steps to run the SQL Genie locally on your machine.
 
 ### Installation
 - Clone the repository
->> git clone https://github.com/your-username/text-to-sql-generator.git
-cd text-to-sql-generator
+>> https://github.com/Rajesh5tutu/TEXT-to-SQL-Generator.git
+
+>>cd text-to-sql-generator
 
 - Create and activate a virtual environment
 >> python -m venv .venv
+
 >> source .venv/bin/activate      # macOS/Linux
+
 >>.venv\Scripts\activate         # Windows
 
 - Install dependencies
 >> pip install -r requirements.txt
 
 - Configure environment variables
->> Copy .env.example to .env
->> Add your Google API key in .env:
-GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+
+Create .env file.
+
+Add your Google API key in .env:
+>> GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 
 - Initialize the SQLite database
 >> python sql.py
@@ -52,6 +57,27 @@ GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 - Run the Streamlit app
 >> streamlit run app.py
 
+## Future Advancements
+To further elevate the capabilities of SQL Genie, the following enhancements are planned:
+- LLM Integration via LangChain
+Incorporate LangChain to enable more advanced natural language understanding, multi-step reasoning, and contextual memory.
 
+This will allow the app to:
+- Handle follow-up questions and conversational SQL refinement
+- Support multiple database schemas dynamically
+- Chain prompts and tools for richer query generation and validation
 
-
+>> Multi-Database Support
+  - Extend compatibility beyond SQLite to include PostgreSQL, MySQL, and cloud-hosted databases.
+    
+>> Custom Prompt Templates
+  - Allow users to define their own prompt structure for domain-specific SQL generation.
+    
+>> User Session Memory
+  - Persist user interactions to enable context-aware query suggestions and history tracking.
+    
+>> Role-Based Access & Query Logging
+  - Add user authentication and query logging for enterprise-grade usage and auditability.
+    
+>> Deployment as a SaaS Tool
+  - Package the app for cloud deployment with user onboarding, API access, and billing support.
