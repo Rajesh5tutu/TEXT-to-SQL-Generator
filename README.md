@@ -2,13 +2,11 @@
 A fast, theme-adaptive Text-to-SQL generator with compact UI cards, intuitive controls, and production-ready UX. Built for seamless query generation from natural language — no SQL expertise required.
 
 ### Features
-- Natural-language to SQL conversion using Google Gemini (gemini-2.0-flash)
+- Natural-language to SQL conversion using Google Gemini API (gemini-2.0-flash)
 - Instant query execution against a local SQLite database
 - Interactive Streamlit interface with light/dark theme toggle
 - Compact, card-based layout for inputs, generated SQL, and results
-- Cached Gemini model and SQLite connection for snappy performance
 - Downloadable query results as CSV
-- Error handling and user feedback on empty or invalid queries
 
 ### Technologies Used
 - Programming Language: Python 3.x
@@ -56,7 +54,3 @@ Add your Google API key in .env:
 
 - Run the Streamlit app
 >> streamlit run app.py
-
-
-
-
